@@ -13,7 +13,7 @@ public static void main(String...strings){
 	
 	//or using array of characters with or without a substring
 	char ch [] = {'a','b','c','d','e','f'}; 
-	String str = new String(ch,0,3);
+	String str = new String(ch,0,3);// (char[],startIndex, length)
 	System.out.println(str);
 	
 	//or array of bytes

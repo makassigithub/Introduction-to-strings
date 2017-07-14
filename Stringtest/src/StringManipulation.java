@@ -29,8 +29,7 @@ public class StringManipulation {
 		System.out.println("Replacing first Saka with Manu: "+ identity.replaceFirst("Saka","Manu"));
 		System.out.println("Repacing all 'a' with 'o': "+ identity.replaceAll("a", "o") );
 		
-		// Splitting a String
-		
+		// Splitting a String		
 		String[] splittedIdentity = identity.split("21-");
 		
 		System.out.println("identity splitted using 21- ");

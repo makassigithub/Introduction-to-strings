@@ -11,7 +11,7 @@ public class FewStringMethods {
      //the getChars()
      int startIndex = 13;
      int endIndex = 20; // end of the substring + 1
-     char [] extracted = new char [endIndex-startIndex];
+     char [] extracted = new char [endIndex-startIndex];//endIndex-startIndex = length of the array;
      s.getChars(13, 20, extracted,0);// extract the chars into 'extracted'
      System.out.println(extracted);
      
