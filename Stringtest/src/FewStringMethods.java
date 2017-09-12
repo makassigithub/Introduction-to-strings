@@ -30,9 +30,11 @@ public class FewStringMethods {
       // both references point to object with the same sequence of characters
       String str1 = "Brahima";
       String str2 = new String("Brahima");
+      String str3 = new String("Brahima");
       System.out.println(str1.equals(str2));// returns true cause the sequence of characters are the same
       System.out.println(str1==str2);// returns false cause str1 and str2 point to different objects
-      
+      System.out.println(str2==str3);// returns false cause str1 and str3 point to different objects
+      System.out.println(str2.equals(str3));// returns true cause the sequence of characters are the same
 
 	}
 

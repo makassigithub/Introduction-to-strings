@@ -1,6 +1,6 @@
 
 public class StringTest {
-public static void main(String...strings){
+public static void main(String ...strings){
 	//Strings are created using string literals 
 	String a = "Brahima";
 	System.out.println(a);
